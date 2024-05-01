@@ -10,15 +10,15 @@ class Human:
         else:
             print(f"{self.name} is not an adult")
 
-Human1 = Human("Nacho", 36)
-Human2 = Human("Pablo", 20)
-Human3 = Human("Kairen", 3)
-Human4 = Human("Ana", 10)
+human1 = Human("Nacho", 36)
+human2 = Human("Pablo", 20)
+human3 = Human("Kairen", 3)
+human4 = Human("Ana", 10)
 
-Humans = [Human1, Human2, Human3, Human4]
+humans = [human1, human2, human3, human4]
 
-for Human in Humans:
-    Human.check_adult()
+for human in humans:
+    human.check_adult()
 
 
 
